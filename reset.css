@@ -1,4 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
+<<<<<<< HEAD
 body{
     font-size: 100%;
     font-family: arial;
@@ -40,3 +41,13 @@ select, button{
 
 
 
+=======
+body{font-family: 'arial';}
+a{text-decoration: none;}
+ul li{list-style: none;}
+
+/*FORM*/
+input{font-family: inherit; font-size: inherit; outline: none;}
+button,
+select{cursor: pointer; font-family: inherit; outline: none;}
+>>>>>>> 57f450e8d66ec8e00247fc8aa4bbc766ecd5d088
