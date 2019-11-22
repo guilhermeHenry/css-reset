@@ -1,10 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
 
-body{
-    font-size: 100%;
-    font-family: arial;
-}
-
 /* Text */
 a{text-decoration: none; color: inherit;}
 ul li{list-style: none;}
@@ -21,3 +16,8 @@ select, button{
 }
 
 
+.appearance-none{
+	-webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+}
