@@ -1,23 +1,33 @@
 *{margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
+body{font-family: arial;}
 
-/* Text */
+/* TEXT */
 a{text-decoration: none; color: inherit;}
 ul li{list-style: none;}
+abbr{text-decoration: none;}
 
-/*FORM*/
+/* FORM: (Deprecated: menu, Obsolete: dir, Obsolete: big) */
 input, select, button, textarea{
     outline: none;
     font-size: inherit;
     font-family: inherit;
 }
+textarea{resize:vertical;}
+input[type="button"], select, button{cursor: pointer;}
+input[type="button"]:disabled, button:disabled, select:disabled{cursor: default;}
 
-select, button{
-    cursor: pointer;
-}
-
-
+/*prop none*/
 .appearance-none{
 	-webkit-appearance: none;
     -moz-appearance:    none;
     appearance:         none;
 }
+
+.select-none {
+  -webkit-user-select : none; /* Safari 3.1+ */
+  -moz-user-select    : none; /* Firefox 2+ */
+  -ms-user-select     : none; /* IE 10+ */
+  user-select         : none; /* Standard syntax */
+}
+
+[center]{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
